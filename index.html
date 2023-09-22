@@ -16,9 +16,6 @@
             <div id="dv1">
     <input type="text" id="search-bar" placeholder="Search...">
     <button type="button" id="btn">ok</button>
-                <div id="wa">
-                    
-                </div>
             </div>
             <br>
             <br>
@@ -46,7 +43,7 @@
                 <br>
                 <br>
                 <br>
-                <button id="bt2">❕</button>
+                <button id="bt2">❗</button>
                 <div id="dv3" hidden>
                     <h3>
                         <span>العنوان</span>
@@ -78,7 +75,7 @@
         <br><br>
         <center>
             <div id="img4">
-        <img src="/m1.png" alt="Err" id="mg4" width="300px">
+        <img src="m1.png" alt="Err" id="mg4" width="300px">
             </div>
             <br><br><br>
             <h1>
@@ -180,62 +177,7 @@ $(document).ready(function() {
     }
 
         
-        })
-        
-        
-        
-        
-        
-const digSec = $('#wa .seconds');
-const digMin = $('#wa .minutes');
-const digHour = $('#wa .hours');
-const digAmpm = ('#wa .ampm');
-
-setInterval(loop);
-
-function loop() {
-    const date = new Date();
-    let hs = date.getSeconds() * 6;
-    let hm = date.getMinutes() * 6;
-    let hh = date.getHours() * 30;
-
-
-    ds = date.getSeconds();
-    dm = date.getMinutes();
-    dh = date.getHours();
-
-
-    let ap;
-    if (dh < 12) {
-        ap = 'AM';
-    } else {
-        ap = 'PM';
-    }
-    if (dh == 0) {
-        dh = 12;
-    }
-    if (dh > 12) {
-        dh -= 12;
-    }
-    if (ds < 10) {
-        ds = '0' + ds;
-    }
-    if (dm < 10) {
-        dm = '0' + dm;
-    }
-    if (dh < 10) {
-        dh = '0' + dh;
-    }
-
- v2 = '<span id="dh">' + dh + '</span>' + ':' + '<span id="dm">' + dm + '</span>' + ':' + '<span id="ds">' + ds + '</span>' + '<span id="ampm">' + ' ' +ap + '</span>';
-$('#wa').html(v2);
-;
-}
-
-loop();
-
-
-        
+        })  
 })
 </script>
 <!-- /Jquery-->
