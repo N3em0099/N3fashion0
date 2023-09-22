@@ -1,0 +1,198 @@
+html{
+    background: #EBBDBD;
+    font-family: dk
+}
+#img1{
+    margin-top: -25px;
+   /* margin-left: 100px*/
+}
+#bk2,#bk3{
+   /* margin-top: -50px;*/
+    color: #EBBDBD;
+    width: 900px;
+    text-align: center;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    font-family: dk;
+    font-weight: bold
+}
+#dv1{
+    padding-top: 20px;
+    background: black ;
+    background-image: url(b.png);
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -8px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 9px double #EBBDBD;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px 3px black;
+    padding-left: 20px;
+    display: flex
+}
+#dv3{
+    padding-top: 20px;
+    background: black ;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -8px;
+    background-position: top;
+    border: 9px double #EBBDBD;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px 3px black;
+    padding-left: 20px;
+    color: #EBBDBD;
+    margin-left: -9px;
+        margin-right: -9px;
+        margin-bottom: -8px;
+}
+#search-bar,#search-bar1{
+    background: transparent;
+    border-top: 3px solid #EBBDBD;
+    border-bottom: 3px solid #EBBDBD;
+    border-left: 0px;
+    border-right: 0px;
+    width: 300px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 30px;
+    color: #EBBDBD;
+}
+#btn,#btn1{
+    background: transparent;
+        border-right: 3px solid #EBBDBD;
+        border-left: 3px solid #EBBDBD;
+        border-bottom: 0px;
+        border-top: 0px;
+        width: 50px;
+        border-radius: 20px;
+        height: 60px;
+        font-size: 30px;
+        color: #EBBDBD;
+        
+}
+#wa{
+    color: #EBBDBD;
+    font-family: neo Ft;
+    margin-left: 300px;
+font-size:20px;
+    border-radius:10px;
+    font-weight: bold;
+    width: 100px;
+    height: 210px;
+}
+hr{
+   border-color: #aaa;
+   border-style: inset
+}
+#dv2{
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+#l1{
+    height: 300px;
+    background: rgba(0, 0, 0, 0.6313725490196078);
+    overflow: hidden;
+    border-radius: 20px;
+}
+#bt3{
+    height: 300px;
+    width: 3000px;
+
+    background: transparent;
+    border: 0px;
+    border-radius: 20px;
+}
+#m1{
+    border-radius: 20px;
+    background-image:url(m1.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    font-family: dk;
+}
+#bt2{
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    border: 0px
+    
+    
+}
+#rd2{
+   /* height: 60px;*/
+    background: black;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -8px;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    overflow: hidden
+   
+}
+#mg4{
+    margin-bottom: -10px
+}
+#img4{
+    background: #FFA29E;
+    margin-left: -6px;
+    margin-right: -6px;
+    box-shadow: 1px 1px 9px 3px #FFA29E;
+    border: 4px double #FF9449;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+#bts{
+   border: 4px double black;
+   height: 100px;
+   line-height: 100px;
+   border-radius: 20px;
+   font-size: 40px;
+}
+#bts:hover{
+    background: rgba(0, 0, 0, 0.30);
+    transition:1s;
+}
+#username,#password{
+        background: rgba(0, 0, 0, 0.10);
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-left: 0px;
+        border-right: 0px;
+        width: 350px;
+        border-radius: 20px;
+        height: 60px;
+        font-size: 30px;
+            color: #000;
+        font-size: 30px
+}
+#mg5{
+    margin-top: -20px
+}
+label{
+    font-size: 30px
+}
+#sup{
+        background: rgba(0, 0, 0, 0.10);
+            border-top: 3px solid #000;
+            border-bottom: 3px solid #000;
+            border-left: 0px;
+            border-right: 0px;
+            width: 400px;
+            border-radius: 20px;
+            height: 60px;
+            font-size: 30px;
+            color: #000;
+            font-size: 30px
+}
