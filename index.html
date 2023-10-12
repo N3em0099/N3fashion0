@@ -13,7 +13,7 @@
     <N3>
 
         <body>
-            <div hidden id="pg1">
+            <div id="pg1">
                 <div id="dv1">
                     <input type="text" class="srb" id="search-bar" placeholder="Search...">
                     <button type="button" id="btn" class="btn1">ok</button>
@@ -218,7 +218,7 @@
 
 
 
-            <div id="pg4">
+            <div id="pg4" hidden>
                 <div id="rd2">
                     <input type="text" class="srb" id="search-bar4" placeholder="Search...">
                     <button type="button" id="btn4" class="btn1">ok</button>
@@ -502,6 +502,12 @@
                 $('#pg130').toggle('slow');
             })
 
+
+$('#bk04').click(function () {
+                $('#pg4').toggle('slow');
+                $('#pg04').toggle('slow');
+            })
+        
             $("#btn").click(function () {
 
                 searchResult = window.find($('#search-bar').val());
